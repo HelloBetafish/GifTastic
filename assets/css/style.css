@@ -1,3 +1,9 @@
+body{
+  padding: 0px 25px 50px 25px;
+  /*www.toptal.com/designers/subtlepatterns/ Made by Listvetra*/
+  background-image:url("../images/dark_embroidery.png");
+}
+
 button{
   padding: 5px;
   margin: 25px 10px;
@@ -10,12 +16,16 @@ button{
 
 .btnGrp{
  float:left;
- margin: 5px;
+ margin: 10px;
 }
 
 form, input{
  padding: 5px;
  margin: 10px;
+}
+
+label{
+ color:mediumturquoise;
 }
 
 .delete{
@@ -24,18 +34,21 @@ form, input{
 }
 
 .select{
- background-color: mediumaquamarine;
+ background-color: mediumturquoise;
 }
 
 #add-Topic{
   margin-top: 10px;
+  background-color: mediumturquoise;
 }
 
 #title{
-
+ /*https://wallpapersafari.com/free-stars-wallpaper/*/
+ background-image:url("http://cdn.wallpapersafari.com/59/47/FxLck2.jpg");
  padding: 20px;
  margin-bottom: 20px;
- background-color: pink;
+ color: mediumturquoise;
+ font-family: 'Lobster', cursive;
 }
 
 #footer{

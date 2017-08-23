@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>GifTastic</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!--Link to GoogleFonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">s
   <!-- Link to Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
@@ -13,15 +15,16 @@
   <div id="title" class="container-fluid text-center">
     <h1>Disney GifTastic!</h1>
     <p>Click on a button below to view some awesome gifs!</p>
-    <p>Click on each image to see the animation!</p>
+    <p>Click on each image to activate the animation!</p>
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-xs-8 col-md-9">
         <div id="topic-Btns">
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="clearfix visible-xs-block"></div>
+      <div class="col-xs-4 col-md-3">
         <form id="topic-form">
           <label for="topic-input">Add a button:</label><br>
           <input type="text" id="topic-input"><br>
