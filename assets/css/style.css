@@ -1,9 +1,43 @@
 button{
   padding: 5px;
-  margin: 5px;
+  margin: 25px 10px;
 }
 
 .item{
   float:left;
   margin: 10px;
+}
+
+.btnGrp{
+ float:left;
+ margin: 5px;
+}
+
+form, input{
+ padding: 5px;
+ margin: 10px;
+}
+
+.delete{
+  background-color:darkgrey;
+  color:white;
+}
+
+.select{
+ background-color: mediumaquamarine;
+}
+
+#add-Topic{
+  margin-top: 10px;
+}
+
+#title{
+
+ padding: 20px;
+ margin-bottom: 20px;
+ background-color: pink;
+}
+
+#footer{
+ padding-top: 10px;
 }

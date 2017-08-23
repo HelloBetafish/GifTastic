@@ -5,21 +5,41 @@
   <meta charset="utf-8">
   <title>GifTastic</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Link to Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
-  
-  <div id="topic-Btns">
+  <div id="title" class="container-fluid text-center">
+    <h1>Disney GifTastic!</h1>
+    <p>Click on a button below to view some awesome gifs!</p>
+    <p>Click on each image to see the animation!</p>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9">
+        <div id="topic-Btns">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <form id="topic-form">
+          <label for="topic-input">Add a button:</label><br>
+          <input type="text" id="topic-input"><br>
+          <input id="add-Topic" type="submit" value="Submit">
+          </form>
+      </div>
+    </div>
+    <div class="row">
+      <div id="topic">
+    </div>
+  </div>
+<!-- Sticky footer -->
+  <div id="footer" class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container">
+    <p class="text-center"><img src="assets/images/Poweredby_100px-Black_VertLogo.png"></p>
+    </div>
   </div>
 
-  <form id="topic-form">
-    <label for="topic-input">Add a button</label>
-    <input type="text" id="topic-input"><br>
-    <input id="add-Topic" type="submit" value="Submit">
-  </form>
-
-  <div id="topic">
-  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/javascript/app.js">

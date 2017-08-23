@@ -1,5 +1,5 @@
 // Initial array with topics
-var topics = ["hamster","bird","turtle"]
+var topics = ["Snow White","Ariel","Beauty and the Beast","Princess Aurora","Princess Jasmine", "Cinderella","Mulan","Pocahontas"]
 
 $(document.body).on("click", ".select", function() {
 
@@ -46,11 +46,16 @@ $(document.body).on("click", ".select", function() {
 var createBtns = function(){
   $("#topic-Btns").empty();
   for (var i = 0; i < topics.length; i++){
+    var buttonGrp = $("<div class='btnGrp'>");
   	var button = $("<button>");
   	button.addClass("select");
+    button.attr("id","index-" + i)
   	button.attr("data-info",topics[i]);
   	button.text(topics[i]);
-    $("#topic-Btns").append(button);
+    var deleteBtn = $("<button class='delete'>").text("x").attr("data-index", i);
+    buttonGrp.append(button);
+    buttonGrp.append(deleteBtn);
+    $("#topic-Btns").append(buttonGrp);
   };
 }
 
@@ -82,4 +87,10 @@ $(document.body).on("click", ".gif", function(){
     $(this).attr("src", $(this).attr("data-still"));
     $(this).attr("data-state","still");
   }
+});
+
+$(document.body).on("click", "button.delete", function(){
+  var currentIndex = $(this).attr("data-index");
+  topics.splice(currentIndex,1);
+  createBtns();
 });
