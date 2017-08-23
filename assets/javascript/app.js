@@ -25,7 +25,7 @@ $(document.body).on("click", ".select", function() {
         var imageUrlS = results[i].images.fixed_height_still.url;
         var imageUrlA = results[i].images.fixed_height.url;
         var rating = results[i].rating;
-        var p = $("<p>").text("Rating: " + rating)
+        var p = $("<p>").text("Rating: " + rating);
         var animalImg = $("<img>");
         animalImg.attr("src", imageUrlS);
         animalImg.attr("alt","image");

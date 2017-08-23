@@ -9,6 +9,7 @@ button{
   margin: 25px 10px;
 }
 
+
 .item{
   float:left;
   margin: 10px;
@@ -26,6 +27,7 @@ form, input{
 
 label{
  color:mediumturquoise;
+ font-family: 'Libre Baskerville', serif;
 }
 
 .delete{
@@ -34,12 +36,14 @@ label{
 }
 
 .select{
- background-color: mediumturquoise;
+  background-color: mediumturquoise;
+  font-family: 'Libre Baskerville', serif;
 }
 
 #add-Topic{
   margin-top: 10px;
   background-color: mediumturquoise;
+  font-family: 'Libre Baskerville', serif;
 }
 
 #title{
@@ -53,4 +57,9 @@ label{
 
 #footer{
  padding-top: 10px;
+}
+
+p{
+  color: white;
+  font-family: 'Libre Baskerville', serif;
 }
