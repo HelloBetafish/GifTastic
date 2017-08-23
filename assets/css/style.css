@@ -28,6 +28,7 @@ form, input{
 label{
  color:mediumturquoise;
  font-family: 'Libre Baskerville', serif;
+ font-size: 18px;
 }
 
 .delete{
@@ -38,12 +39,14 @@ label{
 .select{
   background-color: mediumturquoise;
   font-family: 'Libre Baskerville', serif;
+  font-weight:bold;
 }
 
 #add-Topic{
   margin-top: 10px;
   background-color: mediumturquoise;
   font-family: 'Libre Baskerville', serif;
+  font-weight:bold;
 }
 
 #title{
@@ -53,6 +56,7 @@ label{
  margin-bottom: 20px;
  color: mediumturquoise;
  font-family: 'Lobster', cursive;
+ font-size: 20px;
 }
 
 #footer{
