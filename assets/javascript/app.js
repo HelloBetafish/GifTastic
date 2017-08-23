@@ -1,5 +1,5 @@
 // Initial array with topics
-var topics = ["Snow White","Ariel","Beauty and the Beast","Princess Aurora","Princess Jasmine", "Cinderella","Mulan","Pocahontas"]
+var topics = ["Ariel", "Snow White","Princess Aurora","Princess Jasmine", "Cinderella","Mulan","Pocahontas", "Beauty and the Beast"]
 
 $(document.body).on("click", ".select", function() {
 
