@@ -9,7 +9,9 @@ button{
   margin: 25px 10px;
 }
 
-
+img:hover{
+  opacity: .8;
+}
 .item{
   float:left;
   margin: 10px;
