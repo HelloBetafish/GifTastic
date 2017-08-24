@@ -32,8 +32,12 @@ label{
 }
 
 .delete{
-  background-color:darkgrey;
+  background-color:lightgrey;
   color:white;
+}
+
+.delete:hover{
+  background-color:darkgrey;
 }
 
 .select{
@@ -42,11 +46,19 @@ label{
   font-weight:bold;
 }
 
+#add-Topic:hover, .select:hover{
+  background-color:cyan;
+}
+
 #add-Topic{
   margin-top: 10px;
   background-color: mediumturquoise;
   font-family: 'Libre Baskerville', serif;
   font-weight:bold;
+}
+
+#topic-input:focus{
+  background-color:lightyellow;
 }
 
 #title{
