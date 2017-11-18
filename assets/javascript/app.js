@@ -88,6 +88,7 @@ $(document.body).on("click", ".gif", function(){
     $(this).attr("src", $(this).attr("data-still"));
     $(this).attr("data-state","still");
   }
+  $(this).prev("tr").remove();
 });
 
 //Initialize page with buttons from initial array
